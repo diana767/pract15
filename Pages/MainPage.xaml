@@ -1,0 +1,352 @@
+﻿<Page x:Class="Pract15.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="Магазин электроники"
+      Background="{StaticResource PrimaryBackgroundBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" 
+                Background="{StaticResource PrimaryBrush}"
+                Padding="20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+
+                <TextBlock Grid.Column="0"
+                           Text="Магазин электроники"
+                           Style="{StaticResource PageTitleTextBlock}"
+                           Foreground="White"/>
+
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="{Binding UserRole, Mode=OneWay}"
+                               Foreground="White"
+                               FontSize="14"
+                               VerticalAlignment="Center"
+                               Margin="0,0,20,0"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel.Style>
+                            <Style TargetType="StackPanel">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsManagerMode, Mode=OneWay}" Value="True">
+                                        <Setter Property="Visibility" Value="Visible"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </StackPanel.Style>
+                        <Button Content="Добавить товар"
+                                Style="{StaticResource SecondaryButton}"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Click="AddProduct_Click"
+                                Margin="0,0,10,0"/>
+                        <Button Content="Управление"
+                                Style="{StaticResource SecondaryButton}"
+                                Foreground="White"
+                                BorderBrush="White"
+                                Click="Manage_Click"/>
+                    </StackPanel>
+
+                    <Button Content="Выйти"
+                            Style="{StaticResource SecondaryButton}"
+                            Foreground="White"
+                            BorderBrush="White"
+                            Click="Logout_Click"
+                            Margin="20,0,0,0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1" Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="280"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <materialDesign:Card Grid.Column="0" 
+                                 Background="White"
+                                 Padding="15"
+                                 Margin="0,0,10,0">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" 
+                              HorizontalScrollBarVisibility="Disabled"
+                              MaxHeight="700">
+                    <StackPanel>
+                        <TextBlock Text="Фильтры"
+                                   Style="{StaticResource SectionTitleTextBlock}"/>
+
+                        <TextBlock Text="Поиск"
+                                   Style="{StaticResource LabelTextBlock}"/>
+                        <TextBox Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"
+                                 Style="{StaticResource PrimaryTextBox}"
+                                 materialDesign:HintAssist.Hint="Название товара"/>
+
+                        <TextBlock Text="Категория"
+                                   Style="{StaticResource LabelTextBlock}"/>
+                        <ComboBox ItemsSource="{Binding Categories}"
+                                  SelectedValue="{Binding SelectedCategoryId}"
+                                  SelectedValuePath="Id"
+                                  DisplayMemberPath="Name"
+                                  Style="{StaticResource PrimaryComboBox}"
+                                  materialDesign:HintAssist.Hint="Выберите категорию"/>
+                        <TextBlock Text="Бренд"
+                                   Style="{StaticResource LabelTextBlock}"/>
+                        <ComboBox ItemsSource="{Binding Brands}"
+                                  SelectedValue="{Binding SelectedBrandId}"
+                                  SelectedValuePath="Id"
+                                  DisplayMemberPath="Name"
+                                  Style="{StaticResource PrimaryComboBox}"
+                                  materialDesign:HintAssist.Hint="Выберите бренд"/>
+
+                        <TextBlock Text="Цена"
+                                   Style="{StaticResource LabelTextBlock}"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox Text="{Binding PriceFrom}"
+                                     Style="{StaticResource PrimaryTextBox}"
+                                     Width="80"
+                                     Margin="0,0,10,0"
+                                     materialDesign:HintAssist.Hint="От"/>
+                            <TextBox Text="{Binding PriceTo}"
+                                     Style="{StaticResource PrimaryTextBox}"
+                                     Width="80"
+                                     materialDesign:HintAssist.Hint="До"/>
+                        </StackPanel>
+
+                        <TextBlock Text="Сортировка"
+                                   Style="{StaticResource LabelTextBlock}"
+                                   Margin="0,20,0,0"/>
+
+                        <StackPanel>
+                            <Button Content="По названию (А-Я)"
+                                    Style="{StaticResource SecondaryButton}"
+                                    Click="SortByNameAsc_Click"
+                                    Margin="0,0,0,5"/>
+                            <Button Content="По названию (Я-А)"
+                                    Style="{StaticResource SecondaryButton}"
+                                    Click="SortByNameDesc_Click"
+                                    Margin="0,0,0,5"/>
+                            <Button Content="По цене (возр.)"
+                                    Style="{StaticResource SecondaryButton}"
+                                    Click="SortByPriceAsc_Click"
+                                    Margin="0,0,0,5"/>
+                            <Button Content="По цене (убыв.)"
+                                    Style="{StaticResource SecondaryButton}"
+                                    Click="SortByPriceDesc_Click"
+                                    Margin="0,0,0,5"/>
+                            <Button Content="По остатку (возр.)"
+                                    Style="{StaticResource SecondaryButton}"
+                                    Click="SortByStockAsc_Click"
+                                    Margin="0,0,0,5"/>
+                            <Button Content="По остатку (убыв.)"
+                                    Style="{StaticResource SecondaryButton}"
+                                    Click="SortByStockDesc_Click"
+                                    Margin="0,0,0,5"/>
+                        </StackPanel>
+
+                        <Button Content="Сбросить фильтры"
+                                Style="{StaticResource PrimaryButton}"
+                                Click="ResetFilters_Click"
+                                Margin="0,20,0,10"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </materialDesign:Card>
+            <materialDesign:Card Grid.Column="1" 
+                                 Background="White"
+                                 Padding="15">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal">
+                        <TextBlock Text="Товары"
+                                   Style="{StaticResource SectionTitleTextBlock}"/>
+
+                        <TextBlock FontSize="14"
+                                   Foreground="{StaticResource SecondaryTextBrush}"
+                                   Margin="20,0,0,0"
+                                   VerticalAlignment="Center">
+                            <Run Text="Показано:"/>
+                            <Run Text="{Binding DisplayedProductsCount, Mode=OneWay}" FontWeight="Bold"/>
+                            <Run Text="из"/>
+                            <Run Text="{Binding TotalProductsCount, Mode=OneWay}" FontWeight="Bold"/>
+                        </TextBlock>
+                    </StackPanel>
+
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding ProductsView}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Orientation="Horizontal"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <materialDesign:Card Width="320" Height="220" Margin="8">
+                                        <materialDesign:Card.Style>
+                                            <Style TargetType="materialDesign:Card">
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="0">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="1">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="2">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="3">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="4">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="5">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="6">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="7">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="8">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Stock}" Value="9">
+                                                        <Setter Property="BorderBrush" Value="{StaticResource WarningBorderBrush}"/>
+                                                        <Setter Property="BorderThickness" Value="2"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </materialDesign:Card.Style>
+
+                                        <Grid Margin="12">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Border Grid.Row="4" 
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom"
+                                Background="{StaticResource PrimaryHueLightBrush}"
+                                CornerRadius="4"
+                                Padding="6,2"
+                                Margin="0,5,0,0">
+                                                <TextBlock Text="{Binding Stock, StringFormat='Остаток: {0}'}"
+                                       FontSize="11"
+                                       FontWeight="Bold"
+                                       Foreground="White"/>
+                                            </Border>
+
+                                            <Grid Grid.Row="0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Grid.Column="0"
+                                       Text="{Binding Name}" 
+                                       FontSize="16" 
+                                       FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryTextBrush}"
+                                       TextTrimming="CharacterEllipsis"/>
+
+                                                <TextBlock Grid.Column="1"
+                                       Text="{Binding Price, StringFormat='{}{0:C}'}"
+                                       FontSize="16"
+                                       FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}"
+                                       HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <StackPanel Grid.Row="1" 
+                                    Orientation="Horizontal" 
+                                    Margin="0,3,0,0">
+                                                <TextBlock Text="{Binding Rating, StringFormat='{}{0:F1}'}"
+                                       FontSize="12"
+                                       Foreground="{StaticResource SecondaryBrush}"
+                                       FontWeight="Medium"/>
+                                                <TextBlock Text="★"
+                                       FontSize="12"
+                                       Foreground="{StaticResource SecondaryBrush}"
+                                       FontWeight="Medium"
+                                       Margin="2,0,0,0"/>
+                                            </StackPanel>
+
+                                            <TextBlock Grid.Row="2" 
+                                   Text="{Binding Category.Name}"
+                                   FontSize="11"
+                                   Foreground="{StaticResource SecondaryTextBrush}"
+                                   FontStyle="Italic"
+                                   Margin="0,2,0,0"/>
+
+                                            <TextBlock Grid.Row="3"
+                                       Text="{Binding Description}"
+                                       FontSize="11"
+                                       Foreground="{StaticResource PrimaryTextBrush}"
+                                       Margin="0,5,0,0"
+                                       TextWrapping="Wrap"
+                                       MaxHeight="60"/> 
+                                            <WrapPanel Grid.Row="4" 
+                                                           Margin="0,5,0,0"
+                                                           HorizontalAlignment="Left"
+                                                           VerticalAlignment="Top"> 
+                                                <ItemsControl ItemsSource="{Binding ProductTags}">
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <WrapPanel Orientation="Horizontal"/>
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Border Background="{StaticResource PrimaryHueLightBrush}"
+                                                                        CornerRadius="3"
+                                                                        Padding="4,1"
+                                                                        Margin="0,0,3,2">   
+                                                                <TextBlock Text="{Binding Tag.Name}"
+                                                                       FontSize="9"
+                                                                       Foreground="White"
+                                                                       FontWeight="Medium"/>    
+                                                            </Border>
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </WrapPanel>
+                                        </Grid>
+                                    </materialDesign:Card>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Grid>
+            </materialDesign:Card>
+        </Grid>
+    </Grid>
+</Page>

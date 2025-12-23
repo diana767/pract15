@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Pract15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:style.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\validationrules\\stockvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:validationrules\\stockvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\validationrules\\requiredvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:validationrules\\requiredvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\validationrules\\ratingvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:validationrules\\ratingvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\validationrules\\pricevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:validationrules\\pricevalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\validationrules\\minlengthvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:validationrules\\minlengthvalidationrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\simpleeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\simpleeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\simpleeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\simpleeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\managementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\managementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\migrations\\pract15contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:migrations\\pract15contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\migrations\\20251223040838_addforeignkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:migrations\\20251223040838_addforeignkeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\models\\pract15context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:models\\pract15context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|c:\\users\\user\\desktop\\pract15\\pract15.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{780E0847-798A-4FFD-BDB1-17065B286467}|Pract15.csproj|solutionrelative:pract15.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:29:03.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Style.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Style.xaml",
+              "RelativeDocumentMoniker": "Style.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Style.xaml",
+              "RelativeToolTip": "Style.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:47:16.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:47:31.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAUwJ0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:43:41.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\StockValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\StockValidationRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\StockValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\StockValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T15:03:51.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequiredValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\RequiredValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\RequiredValidationRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\RequiredValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\RequiredValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:05:48.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RatingValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\RatingValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\RatingValidationRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\RatingValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\RatingValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T15:04:06.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PriceValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\PriceValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\PriceValidationRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\PriceValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\PriceValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:06:12.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MinLengthValidationRule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\MinLengthValidationRule.cs",
+              "RelativeDocumentMoniker": "ValidationRules\\MinLengthValidationRule.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\ValidationRules\\MinLengthValidationRule.cs",
+              "RelativeToolTip": "ValidationRules\\MinLengthValidationRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T15:03:17.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:42:20.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SimpleEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\SimpleEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\SimpleEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\SimpleEditWindow.xaml.cs",
+              "RelativeToolTip": "Pages\\SimpleEditWindow.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T03:35:51.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SimpleEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\SimpleEditWindow.xaml",
+              "RelativeDocumentMoniker": "Pages\\SimpleEditWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\SimpleEditWindow.xaml",
+              "RelativeToolTip": "Pages\\SimpleEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-22T03:35:36.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ProductEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ProductEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ProductEditWindow.xaml.cs",
+              "RelativeToolTip": "Pages\\ProductEditWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:52:53.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ProductEditWindow.xaml",
+              "RelativeDocumentMoniker": "Pages\\ProductEditWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ProductEditWindow.xaml",
+              "RelativeToolTip": "Pages\\ProductEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:52:41.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ManagementPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ManagementPage.xaml.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAmwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:55:31.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ManagementPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ManagementPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\ManagementPage.xaml",
+              "RelativeToolTip": "Pages\\ManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:53:17.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:52:15.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:51:33.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:46:49.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:46:32.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:49:40.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:49:36.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Pract15ContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Migrations\\Pract15ContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\Pract15ContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Migrations\\Pract15ContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\Pract15ContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T04:29:22.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20251223040838_AddForeignKeys.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Migrations\\20251223040838_AddForeignKeys.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251223040838_AddForeignKeys.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Migrations\\20251223040838_AddForeignKeys.cs",
+              "RelativeToolTip": "Migrations\\20251223040838_AddForeignKeys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T04:08:38.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Pract15Context.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Pract15Context.cs",
+              "RelativeDocumentMoniker": "Models\\Pract15Context.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Pract15Context.cs",
+              "RelativeToolTip": "Models\\Pract15Context.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:39:46.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T16:29:08.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T17:16:01.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Tag.cs",
+              "RelativeToolTip": "Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:49:58.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "Models\\ProductTag.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Models\\ProductTag.cs",
+              "RelativeToolTip": "Models\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:49:54.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T16:49:49.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Pract15.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Pract15\\Pract15.csproj",
+              "RelativeDocumentMoniker": "Pract15.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Pract15\\Pract15.csproj",
+              "RelativeToolTip": "Pract15.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-21T16:41:15.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PropertyPathWorker.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAdAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T17:54:56.602Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

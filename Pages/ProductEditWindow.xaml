@@ -1,0 +1,114 @@
+﻿<Window x:Class="Pract15.Windows.ProductEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Добавление товара"
+        Width="400"
+        Height="550"
+        WindowStartupLocation="CenterOwner"
+        Background="{StaticResource PrimaryBackgroundBrush}">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Text="Добавление товара"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Foreground="{StaticResource PrimaryTextBrush}"
+                   Margin="0,0,0,20"/>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBox x:Name="NameTextBox"
+         Style="{StaticResource PrimaryTextBox}"
+         MaxLength="255"
+         materialDesign:HintAssist.Hint="Название товара"
+         Text="{Binding ProductName, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+                <TextBox x:Name="DescriptionTextBox"
+         Style="{StaticResource PrimaryTextBox}"
+         AcceptsReturn="True"
+         Height="60"
+         TextWrapping="Wrap"
+         MaxLength="255"
+         materialDesign:HintAssist.Hint="Описание товара"
+         Text="{Binding ProductDescription, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                         />
+
+
+                <TextBox x:Name="PriceTextBox"
+         Style="{StaticResource PrimaryTextBox}"
+         materialDesign:HintAssist.Hint="цена 0.00"
+         Text="{Binding ProductPrice, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+                <TextBox x:Name="StockTextBox"
+         Style="{StaticResource PrimaryTextBox}"
+         materialDesign:HintAssist.Hint="остаток на складе 0"
+         Text="{Binding ProductStock, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, StringFormat=N0}"/>
+
+                <TextBox x:Name="RatingTextBox"
+         Style="{StaticResource PrimaryTextBox}"
+         materialDesign:HintAssist.Hint="рецтинг товара 0.0"
+         Text="{Binding ProductRating, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, StringFormat=N1}"/>
+
+                <ComboBox x:Name="CategoryComboBox"
+          ItemsSource="{Binding Categories}"
+          SelectedValue="{Binding SelectedCategoryId, Mode=TwoWay}"
+          SelectedValuePath="Id"
+          Style="{StaticResource PrimaryComboBox}"
+          DisplayMemberPath="Name"
+          materialDesign:HintAssist.Hint="Выберите категорию"/>
+
+                <ComboBox x:Name="BrandComboBox"
+          ItemsSource="{Binding Brands}"
+          SelectedValue="{Binding SelectedBrandId, Mode=TwoWay}"
+          SelectedValuePath="Id"
+          Style="{StaticResource PrimaryComboBox}"
+          DisplayMemberPath="Name"
+          materialDesign:HintAssist.Hint="Выберите бренд"/>
+
+                <TextBlock Text="Теги"
+           Style="{StaticResource LabelTextBlock}"/>
+                <ListBox x:Name="TagsListBox"
+         ItemsSource="{Binding Tags}"
+         SelectionMode="Multiple"
+         Margin="0,0,0,20"
+         Height="100"
+         Background="{StaticResource InputBackgroundBrush}"
+         BorderBrush="{StaticResource BorderBrush}"
+         BorderThickness="1">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <CheckBox Content="{Binding Name}"
+                      IsChecked="{Binding IsSelected, Mode=TwoWay}"
+                      Margin="5,2"/>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <TextBlock x:Name="ErrorText"
+                           Foreground="{StaticResource ErrorBrush}"
+                           Visibility="Collapsed"
+                           TextWrapping="Wrap"/>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right"
+                    Margin="0,20,0,0">
+            <Button Content="Отмена"
+                    Style="{StaticResource SecondaryButton}"
+                    Click="Cancel_Click"
+                    Margin="0,0,10,0"/>
+            <Button Content="Сохранить"
+                    Style="{StaticResource PrimaryButton}"
+                    Click="Save_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
